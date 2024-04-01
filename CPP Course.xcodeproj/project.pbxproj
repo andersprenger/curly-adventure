@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BED50D922BBB476D00D120F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BED50D912BBB476D00D120F2 /* main.cpp */; };
+		BED50D9D2BBB49DE00D120F2 /* Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BED50D9B2BBB49DE00D120F2 /* Account.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		BED50D8E2BBB476D00D120F2 /* CPP Course */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CPP Course"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED50D912BBB476D00D120F2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BED50D9B2BBB49DE00D120F2 /* Account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Account.cpp; sourceTree = "<group>"; };
+		BED50D9C2BBB49DE00D120F2 /* Account.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Account.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				BED50D912BBB476D00D120F2 /* main.cpp */,
+				BED50D9B2BBB49DE00D120F2 /* Account.cpp */,
+				BED50D9C2BBB49DE00D120F2 /* Account.hpp */,
 			);
 			path = "CPP Course";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BED50D922BBB476D00D120F2 /* main.cpp in Sources */,
+				BED50D9D2BBB49DE00D120F2 /* Account.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
