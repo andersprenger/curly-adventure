@@ -9,9 +9,7 @@
 #include "Account.hpp"
 
 int main(int argc, const char * argv[]) {
-    Account act1{};
-    act1.setName("Anderson");
-    act1.setBalance(400);
+    Account act1{"Anderson", 400};
     
     std::cout << act1.str() << std::endl;
     

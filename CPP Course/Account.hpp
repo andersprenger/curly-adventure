@@ -17,6 +17,7 @@ private:
     double balance;
     
 public:
+    Account(std::string name, double balance);
     double getBalance();
     void setBalance(double newBalance);
     std::string getName();

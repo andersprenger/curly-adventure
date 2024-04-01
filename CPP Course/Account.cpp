@@ -8,12 +8,22 @@
 #include "Account.hpp"
 #include <sstream>
 
-void Account::setBalance(double newBalance) {
-    balance = newBalance;
+
+// MARK: - Builder
+
+Account::Account(std::string n, double b) {
+    name = n;
+    balance = b;
 }
+
+// MARK: - Getters & Setters
 
 double Account::getBalance() {
     return balance;
+}
+
+void Account::setBalance(double newBalance) {
+    balance = newBalance;
 }
 
 std::string Account::getName() {
@@ -23,6 +33,8 @@ std::string Account::getName() {
 void Account::setName(std::string newName) {
     name = newName;
 }
+
+// MARK: Methods
 
 bool Account::deposit(double amount) {
     if (amount > 0) {
@@ -34,7 +46,7 @@ bool Account::deposit(double amount) {
 }
 
 bool Account::withdraw(double amount) {
-    if (balance - amount > 0) {
+    if (balance - amount >= 0) {
         balance -= amount;
         return true;
     }
